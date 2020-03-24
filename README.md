@@ -1,6 +1,8 @@
 # gulp-angularjs-ts-class-annotate
 Gulp plugin which adds AngularJS dependency annotation for Typescript classes
 
+Internally uses [angularjs-ts-class-annotate](https://github.com/yrtimiD/angularjs-ts-class-annotate) library.
+
 ## Important notes and limitations
 * Only typescript classes are supported.
 * Adds AngularJS $inject statement for constructors in all classes, regardless if they are registered in the AngularJS injector or not.
