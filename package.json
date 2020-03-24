@@ -1,0 +1,43 @@
+{
+  "name": "gulp-angularjs-ts-class-annotate",
+  "version": "1.0.0",
+  "description": "Gulp plugin for angularjs-ts-class-annotate",
+  "main": "src/index.js",
+  "author": {
+    "name": "Dmitry Gurovich",
+    "email": "yrtimid@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "plugin",
+    "require",
+    "html",
+    "inline"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "gulp -f demo/gulpfile.js"
+  },
+  "bugs": {
+    "url": "https://github.com/yrtimiD/gulp-angularjs-ts-class-annotate/issues"
+  },
+  "homepage": "https://github.com/yrtimiD/gulp-angularjs-ts-class-annotate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrtimiD/gulp-angularjs-ts-class-annotate.git"
+  },
+  "dependencies": {
+    "angularjs-ts-class-annotate": "^1.0.3",
+    "plugin-error": "^1.0.1",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^3"
+  }
+}
