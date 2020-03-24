@@ -17,8 +17,9 @@
     "inline"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "gulp -f demo/gulpfile.js"
+    "test": "echo \"There is no tests. Try to npm run demo\" && exit 1",
+    "clean": "rimraf demo/annotated",
+    "demo": "npm run clean && gulp -f demo/gulpfile.js"
   },
   "bugs": {
     "url": "https://github.com/yrtimiD/gulp-angularjs-ts-class-annotate/issues"
@@ -35,7 +36,8 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.2.0"
+    "gulp-cli": "^2.2.0",
+    "rimraf": "^3.0.2"
   },
   "peerDependencies": {
     "typescript": "^3"

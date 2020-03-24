@@ -45,6 +45,7 @@ static $inject = ["$log","$window"];
 	}
 }
 ```
+Full usage demo can be seeing [here](https://github.com/yrtimiD/gulp-angularjs-ts-class-annotate/tree/master/demo).
 
 ## Building locally
 ```sh
